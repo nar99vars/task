@@ -1,0 +1,14 @@
+.name-form{
+    width: 250px;
+}
+.container{
+    width: 500px;
+    margin: auto;
+    border: dashed 3px #000;
+}
+.vertical-fild{
+    width: 200px;
+    font-size: 22px;
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 5px;
+}

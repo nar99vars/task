@@ -1,0 +1,32 @@
+.slider {
+    position: relative;
+    border-radius: 5px;
+    background:#ccc;
+    width: 310px;
+    height: 15px;
+    margin: 5px;
+}
+.sub-slider{
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    border-radius: 5px;
+
+}
+.thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /*position: relative;*/
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    background: #000000;
+    cursor: pointer;
+    z-index: 1;
+}
+#out-color-val{
+    border: solid 1px #000;
+    display: inline-block;
+    min-width: 100px;
+}
